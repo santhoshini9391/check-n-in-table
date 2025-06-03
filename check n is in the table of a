@@ -1,0 +1,7 @@
+# to check n is in the table of a
+n=int(input())
+a=int(input())
+if n%a==0:
+    print(f"{n} is in the table of {a}")
+else:
+    print(f"{n} is not in the table of {a}")
